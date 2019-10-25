@@ -7,14 +7,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.view.View;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -23,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private Adapter adapter;
     private RecyclerView rvMain;
     private List<Sport> sportList;
-
-
 
     private void initViews(){
         sportList = new ArrayList<>();
@@ -84,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar tbrMain = findViewById(R.id.tbrMain);
         setSupportActionBar(tbrMain);
-
         initViews();
         initSportList();
         handleFloatingButton();
