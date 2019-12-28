@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
-    private List<Sport>sports;
+    private final List<Sport>sports;
 
     public Adapter(List<Sport> sports) {
         this.sports = sports;
