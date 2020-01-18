@@ -1,7 +1,9 @@
-package com.haanhgs.recyclerglidedemo;
+package com.haanhgs.recyclerglidedemo.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.haanhgs.recyclerglidedemo.R;
 
 public class MainActivity extends AppCompatActivity {
 

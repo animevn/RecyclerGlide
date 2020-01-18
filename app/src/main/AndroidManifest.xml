@@ -6,7 +6,6 @@
     <dist:module dist:instant="true" />
 
     <application
-        android:name=".App"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/app_icon"
@@ -15,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             >
             <intent-filter>
@@ -24,6 +23,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.DetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".view.MainActivity"
+            >
         </activity>
     </application>
 
