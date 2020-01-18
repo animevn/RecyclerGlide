@@ -1,4 +1,4 @@
-package com.haanhgs.recyclerglidedemo;
+package com.haanhgs.recyclerglidedemo.model;
 
 public class Sport {
 
