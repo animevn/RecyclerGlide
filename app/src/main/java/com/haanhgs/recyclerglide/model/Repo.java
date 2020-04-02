@@ -1,8 +1,8 @@
-package com.haanhgs.recyclerglidedemo.model;
+package com.haanhgs.recyclerglide.model;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import com.haanhgs.recyclerglidedemo.R;
+import com.haanhgs.recyclerglide.R;
 import java.util.ArrayList;
 import java.util.List;
 

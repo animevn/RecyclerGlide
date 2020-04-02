@@ -1,4 +1,4 @@
-package com.haanhgs.recyclerglidedemo.adapter;
+package com.haanhgs.recyclerglide.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
-import com.haanhgs.recyclerglidedemo.R;
-import com.haanhgs.recyclerglidedemo.model.Sport;
-import com.haanhgs.recyclerglidedemo.view.DetailActivity;
+import com.haanhgs.recyclerglide.R;
+import com.haanhgs.recyclerglide.model.Sport;
+import com.haanhgs.recyclerglide.view.DetailActivity;
 import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

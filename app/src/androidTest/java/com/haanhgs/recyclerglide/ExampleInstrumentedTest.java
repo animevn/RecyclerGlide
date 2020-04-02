@@ -1,4 +1,4 @@
-package com.haanhgs.recyclerglidedemo;
+package com.haanhgs.recyclerglide;
 
 import android.content.Context;
 

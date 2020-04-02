@@ -1,12 +1,12 @@
-package com.haanhgs.recyclerglidedemo.view;
+package com.haanhgs.recyclerglide.view;
 
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.haanhgs.recyclerglidedemo.R;
-import com.haanhgs.recyclerglidedemo.adapter.Adapter;
-import com.haanhgs.recyclerglidedemo.model.Repo;
-import com.haanhgs.recyclerglidedemo.model.Sport;
+import com.haanhgs.recyclerglide.R;
+import com.haanhgs.recyclerglide.adapter.Adapter;
+import com.haanhgs.recyclerglide.model.Repo;
+import com.haanhgs.recyclerglide.model.Sport;
 
 import java.util.ArrayList;
 import java.util.Collections;

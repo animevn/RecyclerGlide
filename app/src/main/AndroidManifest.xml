@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.haanhgs.recyclerglidedemo">
+    package="com.haanhgs.recyclerglide">
 
     <dist:module dist:instant="true" />
 
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.haanhgs.recyclerglide.view.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             >
             <intent-filter>
@@ -24,9 +24,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.DetailActivity"
+            android:name="com.haanhgs.recyclerglide.view.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".view.MainActivity"
+            android:parentActivityName="com.haanhgs.recyclerglide.view.MainActivity"
             >
         </activity>
     </application>

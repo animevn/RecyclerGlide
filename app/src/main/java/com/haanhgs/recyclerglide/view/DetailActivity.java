@@ -1,4 +1,4 @@
-package com.haanhgs.recyclerglidedemo.view;
+package com.haanhgs.recyclerglide.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.haanhgs.recyclerglidedemo.R;
+import com.haanhgs.recyclerglide.R;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
